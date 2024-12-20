@@ -1,0 +1,52 @@
+.hero-section {
+    background: linear-gradient(to bottom, #1e90ff, #f0f8ff);
+    padding: 80px 20px; /* Adjusted padding */
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .cta-btn.primary {
+    background-color: #ff6f61;
+    color: white;
+  }
+  
+  .cta-btn.secondary {
+    background-color: white;
+    color: #1e90ff;
+    border: 1px solid #1e90ff;
+  }
+  
+  .recent-projects {
+    padding: 40px 20px; /* Adjusted padding */
+    text-align: center;
+  }
+  
+  .slideshow img {
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .slideshow img:hover {
+    transform: scale(1.05);
+  }
+  

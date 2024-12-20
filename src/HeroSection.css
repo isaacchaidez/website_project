@@ -1,0 +1,63 @@
+.hero-section {
+  position: relative;
+  background: linear-gradient(135deg, #4facfe, #00f2fe); /* Gradient instead of image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.cta-btn.primary {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-btn.primary:hover {
+  background-color: #ff473e;
+  transform: scale(1.1);
+}
+
+.cta-btn.secondary {
+  background-color: white;
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-btn.secondary:hover {
+  background-color: #e3f2ff;
+  transform: scale(1.1);
+}
