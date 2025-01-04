@@ -10,7 +10,7 @@ function Navbar() {
       <div className="logo">Top Software</div>
       <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => setIsMobile(false)}>
         <li><Link to="/">Welcome</Link></li>
-        <li><Link to="/home">Home</Link></li>
+     
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/portfolio">Portfolio</Link></li>
         <li><Link to="/pricing">Pricing</Link></li>
